@@ -31,5 +31,10 @@
         $myCar = new Car("red", "volvo");
         var_dump($myCar);
     ?>
+    <br>
+    <?php 
+        $nome = "carlos";
+        echo strlen($nome);
+    ?>
 </body>
 </html>
