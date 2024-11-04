@@ -33,8 +33,12 @@
     ?>
     <br>
     <?php 
-        $nome = "carlos";
+        $nome = "carlos oliveira teixeira";
         echo strlen($nome);
+        echo "<br>";
+        echo str_word_count($nome);
+        echo "<br>";
+        echo strpos($nome, "oliveira");
     ?>
 </body>
 </html>
