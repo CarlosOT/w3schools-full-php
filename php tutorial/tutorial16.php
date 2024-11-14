@@ -8,11 +8,13 @@
 <body>
     <h1>PHP Page</h1>
     <?php 
-        echo (pi());
-        echo ("<br>");
-        echo (min(10,90,03));
-        echo ("<br>");
-        echo (rand(1,10));
+        $t = (int) date("H");
+
+        if ($t < 18){
+            echo "Bom dia";
+        }else{
+            echo "Boa noite";
+        }
     ?>
 </body>
 </html>
