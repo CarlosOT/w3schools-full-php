@@ -25,6 +25,7 @@
         var_dump($cars);
     ?>
     <?php 
+        
     ?>
 </body>
 </html>
